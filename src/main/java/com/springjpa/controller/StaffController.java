@@ -1,8 +1,5 @@
 package com.springjpa.controller;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -34,14 +31,13 @@ public class StaffController {
 	}
 	
 	@RequestMapping("/findall")
-	public List<Staff> list() {
-		List<Staff> result = new ArrayList<Staff>();
+	public String findAll(){
+		String result = "<html>";
 		
-		for (Staff staff : staffRepository.findAll()) {
-			result.add(staff);
-		}
-		
-		return result;
+		for(Staff staff : staffRepository.findAll()){
+			result += "<div>" + staff.toString() + "</div>";
+		}		
+		return result + "</html>";
 	}
 	
 	@RequestMapping("/create")
