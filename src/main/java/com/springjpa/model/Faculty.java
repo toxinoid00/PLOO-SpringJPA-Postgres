@@ -60,13 +60,13 @@ public class Faculty implements Serializable{
         String result = String.format(
                 "Faculty[id=%d, name='%s', established_date='%s']%n",
                 id, name, established_date);
-//        if (staffs != null) {
-//            for(Staff staff : staffs) {
-//                result += String.format(
-//                        "Staff[id=%d, name='%s', address='%s', position='%s']%n",
-//                        staff.getId(), staff.getName(), staff.getAddress(), staff.getPosition());
-//            }
-//        }
+        if (staffs != null) {
+            for(Staff staff : staffs) {
+                result += String.format(
+                        "Staff[id=%d, name='%s', address='%s', position='%s']%n",
+                        staff.getId(), staff.getName(), staff.getAddress(), staff.getPosition());
+            }
+        }
 
         return result;
     }

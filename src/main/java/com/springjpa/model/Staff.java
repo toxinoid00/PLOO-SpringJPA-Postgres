@@ -72,7 +72,7 @@ public class Staff implements Serializable{
 	@Override
 	public String toString() {
 		return String.format(
-				"Staff[id=%d, name=%s, address=%s, position=%s, faculty=%s]",
-				id, name, address, position, faculty.toString());
+				"Staff[id=%d, name=%s, address=%s, position=%s, faculty=%s, faculty_name=%s, faculty_date=%s]",
+				id, name, address, position, faculty.getId(), faculty.getName(), faculty.getEstablished_date());
 	}
 }
