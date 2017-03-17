@@ -15,7 +15,9 @@ public class Faculty implements Serializable{
 	 */
 	private static final long serialVersionUID = 1L;
 	private int id;
+    @Column(name = "name")
     private String name;
+    @Column(name = "established_date")
     private Date established_date;
     private List<Staff> staffs;
     
