@@ -7,15 +7,7 @@ Project for study Object-Oriented Software, with Spring Boot, JPA, and Postgres 
 1. Already installed IDE Eclipse or STS 3.8 or latest or NetBeans
 2. Postgres 9.5 or latest
 
-```
-Give examples
-```
-
 ### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
 
 ```
 Git clone or download zip
