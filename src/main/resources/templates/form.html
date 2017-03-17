@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Faculty</h1>
+    <form action="#" th:action="@{/faculty/form}" th:object="${faculty}" method="post">
+        <p>Faculty Name: <input type="text" th:field="*{name}" /></p>
+        <!-- <p>Established Date: <input type="date" th:field="*{established_date}" /></p> -->
+        <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+    </form>
+</body>
+</html>
