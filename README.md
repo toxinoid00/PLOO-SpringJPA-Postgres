@@ -23,4 +23,4 @@ Open from existing file
 
 ## Authors
 
-* **Muhammad Husain Fadhlullah** - *Student at Politeknik Negeri Bandung* - [PurpleBooth](https://github.com/toxinoid00)
+* **Muhammad Husain Fadhlullah** - *Student at Politeknik Negeri Bandung* - [Github](https://github.com/toxinoid00) - [LinkedIn](https://www.linkedin.com/in/muhammad-husain-fadhlullah-90607a119/)
