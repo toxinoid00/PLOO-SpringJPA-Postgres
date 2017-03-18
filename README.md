@@ -24,6 +24,10 @@ Open from existing file
 ### Screenshoot
 
 ![alt tag](https://github.com/toxinoid00/PLOO-SpringJPA-Postgres/blob/master/src/images/2.PNG)
+![alt tag](https://github.com/toxinoid00/PLOO-SpringJPA-Postgres/blob/master/src/images/3.PNG)
+![alt tag](https://github.com/toxinoid00/PLOO-SpringJPA-Postgres/blob/master/src/images/4.PNG)
+![alt tag](https://github.com/toxinoid00/PLOO-SpringJPA-Postgres/blob/master/src/images/5.PNG)
+![alt tag](https://github.com/toxinoid00/PLOO-SpringJPA-Postgres/blob/master/src/images/6.PNG)
 
 ## Authors
 
