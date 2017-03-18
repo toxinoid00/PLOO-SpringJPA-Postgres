@@ -21,6 +21,10 @@ Open your IDE
 Open from existing file 
 ```
 
+### Screenshoot
+
+![alt tag](https://github.com/toxinoid00/PLOO-SpringJPA-Postgres/blob/master/src/images/2.PNG)
+
 ## Authors
 
 * **Muhammad Husain Fadhlullah** - *Student at Politeknik Negeri Bandung* - [Github](https://github.com/toxinoid00) - [LinkedIn](https://www.linkedin.com/in/muhammad-husain-fadhlullah-90607a119/)
