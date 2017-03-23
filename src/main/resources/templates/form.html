@@ -8,7 +8,7 @@
 	<h1>Faculty</h1>
     <form action="#" th:action="@{/faculty/form}" th:object="${faculty}" method="post">
         <p>Faculty Name: <input type="text" th:field="*{name}" /></p>
-        <!-- <p>Established Date: <input type="date" th:field="*{established_date}" /></p> -->
+        <p>Established Date: <input type="date" th:field="*{established_date}" /></p>
         <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
     </form>
 </body>

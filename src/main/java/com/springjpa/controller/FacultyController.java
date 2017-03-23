@@ -54,7 +54,7 @@ public class FacultyController {
     @RequestMapping(value="/form", method=RequestMethod.POST)
     public String facultySubmit(@ModelAttribute Faculty faculty, Model model) {
         model.addAttribute("faculty", faculty);
-        faculty.setEstablished_date(new Date());
+        //faculty.setEstablished_date(new Date());
         String info = String.format("Faculty Submission: Faculty Name = %s, Established Date = %s", 
         								faculty.getName(), faculty.getEstablished_date());
         log.info(info);

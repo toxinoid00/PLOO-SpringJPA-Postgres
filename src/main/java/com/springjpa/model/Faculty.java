@@ -2,6 +2,8 @@ package com.springjpa.model;
 
 import javax.persistence.*;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
@@ -18,6 +20,7 @@ public class Faculty implements Serializable{
     @Column(name = "name")
     private String name;
     @Column(name = "established_date")
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date established_date;
     private List<Staff> staffs;
     
